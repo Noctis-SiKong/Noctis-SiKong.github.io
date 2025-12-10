@@ -1,0 +1,26 @@
+/* 把这段代码写到 custom.css 里，就能实现对应效果 */
+/* 1. 博客标题改成命运石之门标志性深红色 */
+h1.site-title {
+  color: #D62828; /* 动画里的核心红色 */
+  font-weight: bold; /* 加粗标题 */
+}
+
+/* 2. 调整头像大小（从默认50px改成80px） */
+.avatar-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* 保持圆形 */
+  border: 2px solid #003049; /* 加一圈深蓝边框，贴合动画色调 */
+}
+
+/* 3. 正文字体换成更适配中文的微软雅黑，增大行间距 */
+.post-content {
+  font-family: "Microsoft YaHei", sans-serif;
+  line-height: 1.8; /* 读起来更舒服 */
+}
+
+/* 4. 页面背景加淡淡的命运石之门纹理（可选，需先把纹理图放static/images里） */
+body {
+  background: url("/images/steinsgate-bg.png") repeat;
+  background-opacity: 0.1; /* 透明度10%，不影响阅读 */
+}
