@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>一切都是命运石之门的选择！</title>
-    <link>http://localhost:1313/</link>
+    <link>https://noctis-sikong.github.io/</link>
     <description>Recent content on 一切都是命运石之门的选择！</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 10 Dec 2025 23:27:45 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://noctis-sikong.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Articles 01</title>
-      <link>http://localhost:1313/post/articles-01/</link>
+      <link>https://noctis-sikong.github.io/post/articles-01/</link>
       <pubDate>Wed, 10 Dec 2025 23:07:10 +0800</pubDate>
-      <guid>http://localhost:1313/post/articles-01/</guid>
+      <guid>https://noctis-sikong.github.io/post/articles-01/</guid>
       <description></description>
     </item>
   </channel>

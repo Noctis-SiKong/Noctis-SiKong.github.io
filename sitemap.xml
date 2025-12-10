@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/post/articles-01/</loc>
+    <loc>https://noctis-sikong.github.io/post/articles-01/</loc>
     <lastmod>2025-12-10T23:27:45+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://noctis-sikong.github.io/post/</loc>
     <lastmod>2025-12-10T23:27:45+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://noctis-sikong.github.io/</loc>
     <lastmod>2025-12-10T23:27:45+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://noctis-sikong.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://noctis-sikong.github.io/tags/</loc>
   </url>
 </urlset>
