@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>拓扑排序 on 一切都是命运石之门的选择！</title><link>https://noctis-sikong.github.io/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link><description>Recent content in 拓扑排序 on 一切都是命运石之门的选择！</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 23 Aug 2026 14:41:01 +0000</lastBuildDate><atom:link href="https://noctis-sikong.github.io/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>拓扑排序（Topological Sort）</title><link>https://noctis-sikong.github.io/post/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8Ftopological-sort/</link><pubDate>Thu, 25 Dec 2025 19:30:10 +0800</pubDate><guid>https://noctis-sikong.github.io/post/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8Ftopological-sort/</guid><description>&lt;h2 id="拓扑排序topological-sort"&gt;拓扑排序（Topological Sort）&lt;/h2&gt;
+&lt;h3 id="核心场景详细版"&gt;核心场景（详细版）&lt;/h3&gt;
+&lt;p&gt;拓扑排序仅适用于&lt;strong&gt;有向无环图（DAG）&lt;/strong&gt;，核心目标是对顶点进行线性排序，满足「若存在从顶点 i 到顶点 j 的有向路径，则 i 在排序结果中一定出现在 j 之前」。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;典型应用：任务调度（依赖任务必须先执行）、课程安排（先修课需先学）；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;额外需求：若图中存在环（非 DAG），则无法完成拓扑排序，需输出 “not acyclic” 或返回空。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

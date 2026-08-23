@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>空间换时间 on 一切都是命运石之门的选择！</title><link>https://noctis-sikong.github.io/tags/%E7%A9%BA%E9%97%B4%E6%8D%A2%E6%97%B6%E9%97%B4/</link><description>Recent content in 空间换时间 on 一切都是命运石之门的选择！</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 23 Aug 2026 14:41:01 +0000</lastBuildDate><atom:link href="https://noctis-sikong.github.io/tags/%E7%A9%BA%E9%97%B4%E6%8D%A2%E6%97%B6%E9%97%B4/index.xml" rel="self" type="application/rss+xml"/><item><title>前 m 大数值筛选</title><link>https://noctis-sikong.github.io/post/%E5%89%8D-m-%E5%A4%A7%E6%95%B0%E5%80%BC%E7%AD%9B%E9%80%89/</link><pubDate>Thu, 25 Dec 2025 19:30:10 +0800</pubDate><guid>https://noctis-sikong.github.io/post/%E5%89%8D-m-%E5%A4%A7%E6%95%B0%E5%80%BC%E7%AD%9B%E9%80%89/</guid><description>&lt;h1 id="前-m-大数值筛选二分答案--局部排序"&gt;前 m 大数值筛选（二分答案 + 局部排序）&lt;/h1&gt;
+&lt;h2 id="一题目核心分析与算法思想"&gt;一、题目核心分析与算法思想&lt;/h2&gt;
+&lt;h3 id="1-题目特点"&gt;1. 题目特点&lt;/h3&gt;
+&lt;p&gt;给定 n 个整数（0 &amp;lt;n,m &amp;lt; 1e6），数值范围 [-500000,500000]，要求输出前 m 大的数（降序）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;关键限制：n/m 规模接近 1e6，&lt;strong&gt;不能用整体排序（如 Arrays.sort 整体 O (n log n)）或冒泡排序（O (m²)）&lt;/strong&gt;，否则超时；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;核心思路：利用「二分答案法」找到第 m 大的数，仅收集前 m 个数做局部排序，将时间复杂度从 O (n log n) 优化为 O (n log (数值范围)) + O (m log m)，适配大规模数据。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>数组中「左侧最大 + 右侧最小」元素筛选</title><link>https://noctis-sikong.github.io/post/%E5%B7%A6%E4%BE%A7%E6%9C%80%E5%A4%A7-+-%E5%8F%B3%E4%BE%A7%E6%9C%80%E5%B0%8F%E5%85%83%E7%B4%A0%E7%AD%9B%E9%80%89/</link><pubDate>Thu, 25 Dec 2025 19:30:10 +0800</pubDate><guid>https://noctis-sikong.github.io/post/%E5%B7%A6%E4%BE%A7%E6%9C%80%E5%A4%A7-+-%E5%8F%B3%E4%BE%A7%E6%9C%80%E5%B0%8F%E5%85%83%E7%B4%A0%E7%AD%9B%E9%80%89/</guid><description>&lt;h1 id="左侧最大--右侧最小元素筛选"&gt;「左侧最大 + 右侧最小」元素筛选&lt;/h1&gt;
+&lt;h2 id="一题目核心分析与算法思想"&gt;一、题目核心分析与算法思想&lt;/h2&gt;
+&lt;h3 id="1-题目功能定义默认输入为正数"&gt;1. 题目功能定义（默认输入为正数）&lt;/h3&gt;
+&lt;p&gt;给定长度为 n 的&lt;strong&gt;正整数数组&lt;/strong&gt;，筛选出满足以下条件的元素（「递增关键元素」）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;第一个元素：大于左侧所有元素的最大值（左侧无元素，最大值为 0）且小于右侧所有元素的最小值；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;中间元素（非首尾）：大于左侧所有元素的最大值 &lt;strong&gt;且&lt;/strong&gt; 小于右侧所有元素的最小值；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最后一个元素：仅需大于左侧所有元素的最大值；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
